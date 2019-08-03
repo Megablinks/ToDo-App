@@ -1,0 +1,107 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	
+	background-size: 1400px 658px;
+}
+section {
+	background-color: grey;
+	position: relative;
+	border: 2px solid rgb(49, 16, 112);
+	margin: 5% 20% 5% 20%;
+	height: 500px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .8);
+}
+
+h1, [today-date]{
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+#time{
+	float:right;
+	margin-right:20%;
+	font-weight: bold;
+	color: white;
+}
+
+[type="text"]{
+	width: 70%;
+	margin-left: 3%;
+	padding: 3px;
+	border: 2px solid rgb(8, 8, 8);
+	border-radius: 5px;
+}
+
+[type="submit"]{
+	width: 20%;
+	padding: 3px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+}
+
+hr {
+	border: 1px solid rgb(9, 38, 77);
+}
+
+#task li {
+	margin-left: 20px;
+	padding: 5px;
+	font-size: 18px;
+}
+
+#task {
+	max-height: 255px;
+	overflow: auto;
+	border:5px solid black;
+	border-radius:8px
+}
+
+#task input {
+	float: right;
+	margin-right: 3%;
+	cursor: pointer;
+	height: 20px;
+	width: 20px;
+	color: red;
+}
+
+.taskstyle {
+	color: red;
+}
+
+[clear-task]{
+	width: 30%;
+	margin-top:10px;
+	margin-left: 35%;
+	position: absolute;
+	top: 440px;
+	padding: 10px;
+	border-radius: 8px;
+	color: white;
+	font-size: 16px;
+	background-color: black;
+}
+
+[copy-right]{
+	width: 20%;
+	margin-left: 40%;
+	margin-right: 27%;
+	margin-top:5px;
+	margin-bottom:15px;
+	position: absolute;
+	top: 490px;
+	color: black;
+}
+.form{
+	height:10%;
+}
+button:hover,  #butt:hover{
+	background-color:blueviolet;
+}
